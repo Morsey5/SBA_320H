@@ -1,6 +1,6 @@
 import React from 'react';
 
-function definition = ({ definition }) => {
+const definition = ({ definition }) => {
     return <p>Definition: {definition}</p>;
   };
 
