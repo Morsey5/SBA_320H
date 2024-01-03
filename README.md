@@ -27,3 +27,19 @@ Render Tab Content: render content of active tab
 User interface, does not work, unable to push, saved locally
 
 # SBA_320H
+
+The intention of the web aplication is to allow users to lookup definition to word as they come across them, they will be able to save and favorite them, so they can find it later so they can practice using the words and expand their vocab. 
+
+import React from 'react';
+import { UserProvider, useUser } from './auth/UserContext';
+import CreateAccount from './auth/CreateAccount';
+import Login from './auth/Login';
+import Logout from './auth/Logout';
+import Profile from './auth/Profile';
+import definition from "./components/definition";
+import './App.css';
+import axios from "axios";
+
+Hook for User Information: get information about the current user 
+
+Render Tab Content: render content of active tab
