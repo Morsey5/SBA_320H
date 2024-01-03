@@ -1,7 +1,7 @@
 import React from 'react';
 
-const definition = ({ definition }) => {
-    return <p>Definition: {definition}</p>;
+const definition = ({ definitionText }) => {
+    return <p>Definition: {definitionText}</p>;
   };
 
 export default definition;
