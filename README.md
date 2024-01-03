@@ -21,3 +21,7 @@ import definition from "./components/definition";
 import './App.css';
 import axios from "axios";
 
+Hook for User Information: get information about the current user 
+
+Render Tab Content: render content of active tab
+
