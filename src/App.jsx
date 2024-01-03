@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-// import { UserProvider } from "./UserContext";
-// import CreateAccount from "./CreateAccount";
-// import Login from "./Login";
-// import Logout from "./Logout";
-// import Profile from "./Profile";
+import { UserProvider } from "./Auth/UserContext";
+import CreateAccount from "./Auth/CreateAccount";
+import Login from "./Auth/Login";
+import Logout from "./Auth/Logout";
+import Profile from "./Auth/Profile";
 import definition from "./components/definition"
 import "./App.css";
 import axios from "axios";
