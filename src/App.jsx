@@ -15,6 +15,8 @@ const App = () => {
   const [savedWords, setSavedWords] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [activeTab, setActiveTab] = useState("home");
+  const [showLogin, setShowLogin] = useState(false);
+  const [showSignup, setShowSignup] = useState(false);
 
   // const [WOD, setWordOfTheDay] = useState("");
 
